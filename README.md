@@ -33,3 +33,33 @@ A Streamlit-based AI dashboard for analyzing customer reviews using sentiment an
 ```bash
 git clone https://github.com/bunyaminenis/Smart-Review-Analyzer.git
 cd smart-review-analyzer
+
+Install Dependencies
+pip install -r requirements.txt
+Run the App
+streamlit run smart_review_analyzer.py
+
+📄 File Format
+Make sure your CSV file includes a column named review_text. Example:
+| review\_id | review\_text                        |
+| ---------- | ----------------------------------- |
+| 101        | This product is amazing! I love it. |
+| 102        | Terrible experience. Never again.   |
+
+📤 Output
+You can download filtered reviews in CSV format after applying sentiment filters.
+
+✅ To Do (Optional Enhancements)
+Use HuggingFace Transformers for advanced sentiment detection
+
+Add product category filters
+
+Export results as PDF
+
+Deploy to Streamlit Cloud or HuggingFace Spaces
+
+🧑‍💻 Author
+Your Name – @bunyaminenis
+
+📃 License
+This project is licensed under the MIT License.
